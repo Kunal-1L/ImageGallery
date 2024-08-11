@@ -1,0 +1,34 @@
+.gallery_container {
+  position: relative;
+  top: 6rem;
+  min-height:80vh;
+  height:auto;
+  background: linear-gradient(0deg, rgba(247,239,229,1) 19%, rgba(255,251,245,1) 41%, rgba(195,172,208,1) 83%);
+}
+
+.images_parent{
+  display:flex;
+  flex-wrap: wrap;
+}
+.btn_cont {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.next_btn, 
+.prev_btn{  animation: dis 0.5s ease-in-out forwards;
+}
+
+@keyframes dis {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

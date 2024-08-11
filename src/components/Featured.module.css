@@ -1,0 +1,6 @@
+.featured_container{
+    background: rgb(247,239,229);
+background: linear-gradient(0deg, rgba(247,239,229,1) 19%, rgba(255,251,245,1) 41%, rgba(195,172,208,1) 83%);
+    display: flex;
+    flex-wrap: wrap;
+}

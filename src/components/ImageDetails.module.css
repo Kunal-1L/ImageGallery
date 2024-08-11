@@ -1,0 +1,11 @@
+.imageDetails_container {
+background: linear-gradient(297deg, rgba(195,172,208,1) 24%, rgba(255,251,245,1) 76%);
+    width: 100%;
+    min-height: 80vh;
+    height:auto;
+    position: absolute;
+    top: 6rem;
+  }
+
+
+

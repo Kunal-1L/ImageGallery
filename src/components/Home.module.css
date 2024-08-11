@@ -1,0 +1,151 @@
+.main_hero_container {
+    width:100%;
+    padding:2rem 0rem 0rem 0rem;
+    top:6rem;
+    position: relative;
+    background-color: #C3ACD0;
+}
+
+.add_main_hero{
+    height:100vh;
+}
+.inner_hero_section {
+    width:90%;
+    height:32rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:5%
+    
+}
+
+.hero_tag_head{
+    font-family: 'Dancing Script', cursive;
+    font-size:10rem;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    animation: rightLeft 0.9s ease-in forwards;
+    position: absolute;
+    top:30%;
+    color:#7743DB
+}
+
+@keyframes rightLeft {
+    0% {
+        margin-left:100%;
+        opacity: 0;
+    }
+    90%{
+        opacity:0;
+    }
+    100% {
+        margin-right:0%;
+        opacity: 1;
+    }
+}
+
+.hero_tag_head:hover{
+    scale: 1.1;
+}
+.hero_tag_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.hero_sub_tag_head {
+    font-size: large;
+    animation: leftRight 0.9s ease-in forwards;
+    position: absolute;
+    top:75%;
+}
+
+.upload_sec {
+    position:absolute;
+    top:81%;
+    animation: grow 1s ease-in-out forwards;
+}
+
+@keyframes grow {
+    0% {
+        opacity:0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes leftRight {
+    0% {
+        margin-right:100%;
+        opacity: 0;
+    }
+    85%{
+        opacity:0;
+    }
+    100% {
+        margin-left:0%;
+        opacity: 1;
+    }
+}
+
+
+.hero_tag_section {
+    width:45%;
+    height:90%;
+    margin-bottom:5%;
+    margin-top: 5%;
+    position: relative
+}
+
+.hero_image_section {
+    width:50%;
+    height:100%;
+    margin-bottom:5%;
+    margin-top: 5%;
+    position: relative
+}
+.hero_slide_img {
+    width: 100%;
+    height:100%;
+    animation: slideLeft 3s ease-in-out forwards;
+}
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(10%);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+.featured_section{
+    width:90%;
+    height:40%;
+    background-color: aliceblue;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-top:2%;
+    margin-left:5%;
+}
+
+.discover_more{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}

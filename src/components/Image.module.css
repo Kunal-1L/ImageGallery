@@ -1,0 +1,54 @@
+.image_container {
+    padding: 1rem;
+    background: linear-gradient(#C3ACD0, #F7EFE5);
+    transition: transform 0.4s ease-in-out;
+    margin: 1rem;
+    display: inline-block;
+    box-shadow: 0rem 0rem 0.7rem #7743DB;
+    position:relative;
+}
+
+.enlarged_image_container{
+    padding: 1rem;
+background: linear-gradient(128deg, rgb(232, 218, 240) 24%, rgba(255,251,245,1) 76%);
+    transition: transform 0.4s ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1.5);
+    box-shadow: 0rem 0rem 0.7rem #7743DB;
+
+}
+.image_container:hover {
+    transform: scale(1.05);
+}
+
+.image_title{
+    font-size: 1.6rem;
+    color:#550bdd;
+}
+
+.add_to_collection{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:.5rem;
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+}
+
+.add_to_collection:hover{
+    transform: scale(1.1);
+}
+.add_to_collection_icon{
+    font-size:1.2rem;
+}
+
+.add_to_collection_icon:hover{
+    color:#7743DB;
+}
+
+.image_container > img{
+    cursor:pointer;
+}
+
